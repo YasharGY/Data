@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/styles/index.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <a href="./about.html">About</a><br /><a href="./contact.html">Contact</a>
+  </nav>
+  Home (Index)
+  <br>
+
+
+ 
+
+
+<div class="container">
+  <div class="filter">
+    <div>
+      <label for="price">Price:</label>
+      <input type="range" id="price" min="0" max="300000" step="1000" value="0">
+      <span id="priceLabel">0</span>
+    </div>
+    <div>
+      <label for="rooms">Number of Rooms:</label>
+      <input type="checkbox" id="rooms-1" value="1">
+      <label for="rooms-1">1</label>
+      <input type="checkbox" id="rooms-2" value="2">
+      <label for="rooms-2">2</label>
+      <input type="checkbox" id="rooms-3" value="3">
+      <label for="rooms-3">3</label>
+    </div>
+    <div>
+      <label for="area">Area (m²):</label>
+      <input type="range" id="area" min="0" max="200" step="10" value="0">
+      <span id="areaLabel">0</span>
+    </div>
+  </div>
+  <div class="right"></div>
+</div>
+</body>
+<script src="./assets/const/data.js"></script>
+<script src="./price.js"></script>
+<script src="./assets/scripts/index.js"></script>
+
+</html>
